@@ -37,6 +37,11 @@ For the first session, read 1.1 - 1.4 of \emph{Category theory} by \cite{awodey2
   What are the identities and composition operations?
   Try to find examples of categories in your own research area/work.
 
+\item \label{ex:matrix}
+  Arrows in a category are not necessarily functions.
+  Define a category where the objects are positive numbers and an arrow from $n \rightarrow m$ is a $m \times n$ matrix.
+  What is a suitable composition operation?
+
 \item
   A diagram commutes if all arrows with the same domain and codomain are equal.
   What does it mean that the following diagram commutes?
@@ -67,6 +72,8 @@ For the first session, read 1.1 - 1.4 of \emph{Category theory} by \cite{awodey2
   Come up with a commuting diagram between the three monoids from before.
   In other words, find at least three Monoid homomorphisms between these types and show that all arrows with the same domain and codomain are equal.
 
+\item Prove that a functor between two partial orders regarded as categories is a monotone function.
+
 \item
   The image of functors can be used to describe a specific diagram in a category.
   Define a functor with a suitable domain, whose image is the diagram of the previous exercise.
@@ -75,7 +82,7 @@ For the first session, read 1.1 - 1.4 of \emph{Category theory} by \cite{awodey2
   \begin{tikzcd}[row sep=large, column sep=small]
      & A \arrow[rd,"f_3"] & \\
     B \arrow[ru, "f_2"] \arrow[rr,"f_6"] & & C \arrow[d,"f_4"] \\
-    D \arrow[rr,"f_5"] \arrow[u,"f_1"]  & & E \\
+    D \arrow[rr,"f_5"] \arrow[u,"f_1"]  & & E
   \end{tikzcd}
   \end{center}
   How do the images of other functors with the same domain as the previous functor look like?
@@ -93,6 +100,16 @@ For the first session, read 1.1 - 1.4 of \emph{Category theory} by \cite{awodey2
   \end{tikzcd}
   \end{center}
 
+\item
+  An isomorphism between objects indicates, that the objects might have different structure, however, they behave the same way.
+  From a perspective of a category, these objects are indistinguishable as there is the same number of arrows pointing into these objects and the same number pointing away from these objects, as we shall see later.
+  For category theorists, this is a notion of equivalence of objects that is fine-grained enough and it is often not worth it to study differences between isomorphic objects.
+  In this vein, prove that the relation $X \cong Y$ is an equivalence relation.
+
+  In $\mathbf{Set}$ isomorphisms are bijective functions.
+  In $\mathbf{Mon}$ isomorphisms are bijective monoid homomorphisms.
+  However, in other categories, isomorphisms might be something completely different.
+  What are isomorphisms in the category of matrices of exercise \ref{ex:matrix}?
 
 \end{enumerate}
 
