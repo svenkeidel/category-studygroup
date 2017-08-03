@@ -61,13 +61,10 @@ For the first session, read 1.1 - 1.4 of \emph{Category theory} by \cite{awodey2
 
 \item
   Monoids are sets/types equipped with an distinguished element called unit and an associative binary operation.
+  %\footnote{Haskell includes a comprehensive library for monoids: \url{https://hackage.haskell.org/package/base/docs/Data-Monoid.html}. You might want to study the monoids $\mathtt{Any}$, $\mathtt{All}$, $\mathtt{First}$, $\mathtt{Last}$, $\mathtt{Max}$, $\mathtt{Min}$, $\mathtt{Sum}$, $\mathtt{Product}$,  $\mathtt{Endo}$, $\mathtt{Dual}$, for tuples and for functions.}
   Show that lists under the append operation form a monoid.
   Show that the $\mathtt{Option}/\mathtt{Maybe}$ type is a monoid.
   Show that the natural numbers under addition are a monoid.
-  Implement a type-class for monoids in Coq and create instances for the last three monoids.
-  \footnote{Haskell includes a comprehensive library for monoids:
-    \url{https://hackage.haskell.org/package/base/docs/Data-Monoid.html}.
-    You might want to study the monoids $\mathtt{Any}$, $\mathtt{All}$, $\mathtt{First}$, $\mathtt{Last}$, $\mathtt{Max}$, $\mathtt{Min}$, $\mathtt{Sum}$, $\mathtt{Product}$,  $\mathtt{Endo}$, $\mathtt{Dual}$, for tuples and for functions.}
 
   We now consider the category of monoids and their homomorphism.
   Come up with a commuting diagram between the three monoids from before.
@@ -90,12 +87,12 @@ For the first session, read 1.1 - 1.4 of \emph{Category theory} by \cite{awodey2
   To this end, prove if the upper face of the following diagram commutes, so does the lower face.
   \begin{center}
   \begin{tikzcd}[row sep=small]
-     & B \arrow[rd,"g_1"] & \\
-    A \arrow[ru, "f_1"]\arrow[rd, "f_2"]\arrow[ddd]  & & D \arrow[ddd] \\
-     & C \arrow[ru,"g_2"] & \\
-     & FB \arrow[rd,"F(g_1)"] & \\
-    FA \arrow[ru, "F(f_1)"]\arrow[rd, "F(f_2)"{below left}] & & FD \\
-     & FC \arrow[ru,"F(g_2)"{below right}] &
+    &  & B \arrow[rd,"g"] & \\
+    \mathbb{C} \arrow[ddd,"F"] & A \arrow[ru, "f"]\arrow[rd, "i"{below left}]  & & D \\
+    &  & C \arrow[ru,"j"{below right}] & \\
+    &  & FB \arrow[rd,"F g"] & \\
+    \mathbb{D} & FA \arrow[ru, "F f"]\arrow[rd, "F i"{below left}] & & FD \\
+    &  & FC \arrow[ru,"F j"{below right}] &
   \end{tikzcd}
   \end{center}
 
