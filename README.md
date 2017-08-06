@@ -1,4 +1,4 @@
-Category Theory reading group
+Category theory reading group
 =============================
 
 [First session](./pdf/session-1.pdf)
