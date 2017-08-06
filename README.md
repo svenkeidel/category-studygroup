@@ -25,6 +25,7 @@ Other courses:
 
 * [Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) by Milewski
 * [Oregon Programming Languages Summer School](https://www.cs.uoregon.edu/research/summerschool/summer12/curriculum.html)
+* [Cambridge course Category Theory, Type Theory and Logic](http://www.cl.cam.ac.uk/teaching/1718/L108/), cs-oriented course with lecture notes available (at least for previous iterations)
 
 Additional resources:
 
