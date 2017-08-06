@@ -88,13 +88,19 @@ For the first session, read 1.1 - 1.5 of \emph{Category theory} by \cite{awodey2
   \begin{center}
   \begin{tikzcd}[row sep=small]
     &  & B \arrow[rd,"g"] & \\
-    \mathbb{C} \arrow[ddd,"F"] & A \arrow[ru, "f"]\arrow[rd, "i"{below left}]  & & D \\
+    \mathbf{C} \arrow[ddd,"F"] & A \arrow[ru, "f"]\arrow[rd, "i"{below left}]  & & D \\
     &  & C \arrow[ru,"j"{below right}] & \\
     &  & FB \arrow[rd,"F g"] & \\
-    \mathbb{D} & FA \arrow[ru, "F f"]\arrow[rd, "F i"{below left}] & & FD \\
+    \mathbf{D} & FA \arrow[ru, "F f"]\arrow[rd, "F i"{below left}] & & FD \\
     &  & FC \arrow[ru,"F j"{below right}] &
   \end{tikzcd}
   \end{center}
+
+\item
+  Show that there is a category $\mathbf{Cat}$, whose objects are categories and arrows are functors.
+  What are identity functors?
+  How is the composition of two functors defined?
+  Prove the identity laws and that composition is associative.
 
 \item
   An isomorphism between objects indicates, that the objects might have different structure, however, they behave the same way.
@@ -106,7 +112,6 @@ For the first session, read 1.1 - 1.5 of \emph{Category theory} by \cite{awodey2
   In $\mathbf{Mon}$ isomorphisms are bijective monoid homomorphisms.
   However, in other categories, isomorphisms might be something completely different.
   What are isomorphisms in the category of matrices of exercise \ref{ex:matrix}?
-
 \end{enumerate}
 
 \bibliography{references}
