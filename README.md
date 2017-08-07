@@ -32,3 +32,7 @@ Additional resources:
 * [SEP article on category theory](https://plato.stanford.edu/entries/category-theory/)
 * [*Practical Foundations of Mathematics*](http://www.paultaylor.eu/~pt/prafm/) by Paul Taylor
 * [A MO thread about topos theory book recommendations](https://mathoverflow.net/questions/55898/topos-theory-reference-suitable-for-undergraduates)
+
+Fun links:
+
+* [The theory behind covariance and contravariance in C# 4](http://tomasp.net/blog/variance-explained.aspx/)
