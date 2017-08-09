@@ -1,7 +1,7 @@
 Category theory reading group
 =============================
 
-[First session](./pdf/session-1.pdf)
+* [First session](./pdf/session-1.pdf) (deadline: 26 August)
 
 LaTeX
 -----
