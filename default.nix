@@ -2,7 +2,7 @@
 
 let
   texEnv = pkgs.texlive.combine {
-      inherit (pkgs.texlive) scheme-small latexmk pgf tikz-cd;
+      inherit (pkgs.texlive) scheme-small latexmk pgf tikz-cd biblatex logreq xstring;
   };
 
 in pkgs.stdenv.mkDerivation {
@@ -10,6 +10,10 @@ in pkgs.stdenv.mkDerivation {
   version = "0.0.1";
   src = ./.;
   buildInputs = with pkgs; [
-    texEnv
+    texEnv biber
   ];
+  installPhase = ''
+    mkdir $out
+    cp pdf/*.pdf $out
+  '';
 }
