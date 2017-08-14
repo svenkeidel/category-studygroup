@@ -33,6 +33,7 @@ Additional resources:
 * [SEP article on category theory](https://plato.stanford.edu/entries/category-theory/)
 * [*Practical Foundations of Mathematics*](http://www.paultaylor.eu/~pt/prafm/) by Paul Taylor
 * [A MO thread about topos theory book recommendations](https://mathoverflow.net/questions/55898/topos-theory-reference-suitable-for-undergraduates)
+* [An Infinitely Large Napkin](http://web.evanchen.cc/napkin.html) by Evan Chen
 
 Fun links:
 
