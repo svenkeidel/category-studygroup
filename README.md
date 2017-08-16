@@ -20,7 +20,9 @@ Resources
 
 *Conceptual mathematics* by Lawvere and Schanuel. "Conceptual Mathematics is a good starting place; lots of pictures. A fairly strong emphasis on sets too, rather than the topos/group examples that abound in Awodey." -- Wiegley
 
-Various other opinions from the Internet: [Smith](http://www.logicmatters.net/2008/06/08/awodeys-category-theory-ch-1/) is concerned about Awodey's book being too advanced for many readers, and instead suggests *Sets for Mathematics* or *Topoi: The Categorial Analysis of Logic* (see the blog comment section). See also [his page with a long list of resources](http://www.logicmatters.net/categories/), where he links his "relatively accessible" introduction (and reading guidelines "for philosophers").
+*[Categories and Haskell](https://github.com/jwbuurlage/category-theory-programmers/)* by Jan-Willem Buurlage. "An introduction to the mathematics behind modern functional programming"
+
+[Smith](http://www.logicmatters.net/2008/06/08/awodeys-category-theory-ch-1/) is concerned about Awodey's book being too advanced for many readers, and instead suggests *Sets for Mathematics* or *Topoi: The Categorial Analysis of Logic* (see the blog comment section). See also [his page with a long list of resources](http://www.logicmatters.net/categories/), where he links his "relatively accessible" introduction (and reading guidelines "for philosophers").
 
 Other courses:
 
