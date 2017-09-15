@@ -3,6 +3,7 @@ Category theory reading group
 
 * [First session](./pdf/session-1.pdf) (deadline: August, 26th)
 * [Second session](./pdf/session-2.pdf) (deadline: September, 9th)
+* [Third session](./pdf/session-3.pdf) (deadline: September, 23rd)
 
 LaTeX
 -----
